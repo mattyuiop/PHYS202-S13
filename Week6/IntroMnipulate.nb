@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      3104,         94]
-NotebookOptionsPosition[      2726,         76]
-NotebookOutlinePosition[      3062,         91]
-CellTagsIndexPosition[      3019,         88]
+NotebookDataLength[     26454,        669]
+NotebookOptionsPosition[     25447,        630]
+NotebookOutlinePosition[     25783,        645]
+CellTagsIndexPosition[     25740,        642]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -72,6 +72,560 @@ Cell[BoxData[
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{3.5776745014762697`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Expand", "[", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Alpha]", "+", "\[Beta]"}], ")"}], "^", "n"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.577674613341008*^9, 3.57767461340526*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 6.32, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 1, 20}}, Typeset`size$$ = {71., {3., 12.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`n$735$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`n$$, $CellContext`n$735$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      Expand[($CellContext`\[Alpha] + $CellContext`\[Beta])^$CellContext`n$$],
+       "Specifications" :> {{$CellContext`n$$, 1, 20}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{253., {48., 53.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.577674618986876*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Expand", "[", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Alpha]", "+", "\[Beta]"}], ")"}], "^", "n"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.577674729474506*^9, 3.577674729580739*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  TagBox[
+   StyleBox[
+    DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+     "\"untitled\"", Typeset`specs$$ = {{
+       Hold[$CellContext`n$$], 1, 20, 1}}, Typeset`size$$ = {30., {2., 9.}}, 
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+     True, $CellContext`n$760$$ = 0}, 
+     DynamicBox[Manipulate`ManipulateBoxes[
+      1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+       "ControllerVariables" :> {
+         Hold[$CellContext`n$$, $CellContext`n$760$$, 0]}, 
+       "OtherVariables" :> {
+        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+         Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+       Expand[($CellContext`\[Alpha] + \
+$CellContext`\[Beta])^$CellContext`n$$], 
+       "Specifications" :> {{$CellContext`n$$, 1, 20, 1}}, "Options" :> {}, 
+       "DefaultOptions" :> {}],
+      ImageSizeCache->{253., {48., 53.}},
+      SingleEvaluation->True],
+     Deinitialization:>None,
+     DynamicModuleValues:>{},
+     SynchronousInitialization->True,
+     UnsavedVariables:>{Typeset`initDone$$},
+     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+    Deployed->True,
+    StripOnInput->False],
+   Manipulate`InterpretManipulate[1]], 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Sin", "[", 
+        RowBox[{"n1", " ", "x"}], "]"}], "+", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"n2", " ", "x"}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", 
+        RowBox[{"2", " ", "Pi"}]}], "}"}], ",", 
+      RowBox[{"Filling", "\[Rule]", "filling"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", "2"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n1", ",", "1", ",", "20"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n2", ",", "1", ",", "20"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"filling", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "None", ",", "Axis", ",", "Top", ",", "Bottom", ",", "Automatic", ",", 
+        "2", ",", "1", ",", "0", ",", 
+        RowBox[{"-", "1"}], ",", 
+        RowBox[{"-", "2"}]}], "}"}], ",", 
+      RowBox[{"ControlType", "\[Rule]", "SetterBar"}]}], "}"}]}], "]"}]}]], \
+"Input",
+ CellChangeTimes->{{3.577674883685383*^9, 3.57767488549244*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox[
+   StyleBox[
+    DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+     "\"untitled\"", Typeset`specs$$ = {{
+       Hold[$CellContext`n$$], 1, 20, 1}}, Typeset`size$$ = {30., {2., 9.}}, 
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+     True, $CellContext`n$862$$ = 0}, 
+     DynamicBox[Manipulate`ManipulateBoxes[
+      1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+       "ControllerVariables" :> {
+         Hold[$CellContext`n$$, $CellContext`n$862$$, 0]}, 
+       "OtherVariables" :> {
+        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+         Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+       Expand[($CellContext`\[Alpha] + \
+$CellContext`\[Beta])^$CellContext`n$$], 
+       "Specifications" :> {{$CellContext`n$$, 1, 20, 1}}, "Options" :> {}, 
+       "DefaultOptions" :> {}],
+      ImageSizeCache->{253., {48., 53.}},
+      SingleEvaluation->True],
+     Deinitialization:>None,
+     DynamicModuleValues:>{},
+     SynchronousInitialization->True,
+     UnsavedVariables:>{Typeset`initDone$$},
+     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+    Deployed->True,
+    StripOnInput->False],
+   Manipulate`InterpretManipulate[1]], " ", 
+  TagBox[
+   StyleBox[
+    DynamicModuleBox[{$CellContext`filling$$ = None, $CellContext`n1$$ = 
+     1, $CellContext`n2$$ = 1, Typeset`show$$ = True, 
+     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+     "\"untitled\"", Typeset`specs$$ = {{
+       Hold[$CellContext`n1$$], 1, 20}, {
+       Hold[$CellContext`n2$$], 1, 20}, {
+       Hold[$CellContext`filling$$], {
+       None, Axis, Top, Bottom, Automatic, 2, 1, 0, -1, -2}}}, 
+     Typeset`size$$ = {360., {112., 117.}}, Typeset`update$$ = 0, 
+     Typeset`initDone$$, Typeset`skipInitDone$$ = 
+     True, $CellContext`n1$879$$ = 0, $CellContext`n2$880$$ = 
+     0, $CellContext`filling$881$$ = 0}, 
+     DynamicBox[Manipulate`ManipulateBoxes[
+      1, StandardForm, 
+       "Variables" :> {$CellContext`filling$$ = None, $CellContext`n1$$ = 
+         1, $CellContext`n2$$ = 1}, "ControllerVariables" :> {
+         Hold[$CellContext`n1$$, $CellContext`n1$879$$, 0], 
+         Hold[$CellContext`n2$$, $CellContext`n2$880$$, 0], 
+         Hold[$CellContext`filling$$, $CellContext`filling$881$$, 0]}, 
+       "OtherVariables" :> {
+        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+         Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+       Plot[Sin[$CellContext`n1$$ $CellContext`x] + 
+         Sin[$CellContext`n2$$ $CellContext`x], {$CellContext`x, 0, 2 Pi}, 
+         Filling -> $CellContext`filling$$, PlotRange -> 2], 
+       "Specifications" :> {{$CellContext`n1$$, 1, 20}, {$CellContext`n2$$, 1,
+           20}, {$CellContext`filling$$, {
+          None, Axis, Top, Bottom, Automatic, 2, 1, 0, -1, -2}, ControlType -> 
+          SetterBar}}, "Options" :> {}, "DefaultOptions" :> {}],
+      ImageSizeCache->{442., {185., 190.}},
+      SingleEvaluation->True],
+     Deinitialization:>None,
+     DynamicModuleValues:>{},
+     SynchronousInitialization->True,
+     UnsavedVariables:>{Typeset`initDone$$},
+     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+    Deployed->True,
+    StripOnInput->False],
+   Manipulate`InterpretManipulate[1]]}]], "Output",
+ CellChangeTimes->{3.577674923390112*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a1", " ", 
+        RowBox[{"Sin", "[", 
+         RowBox[{"n1", " ", 
+          RowBox[{"(", 
+           RowBox[{"x", "+", "p1"}], ")"}]}], "]"}]}], ",", 
+       RowBox[{"a2", " ", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"n2", " ", 
+          RowBox[{"(", 
+           RowBox[{"x", "+", "p2"}], ")"}]}], "]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"20", " ", "Pi"}]}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", "1"}], ",", 
+     RowBox[{"PerformanceGoal", "\[Rule]", "\"\<Quality\>\""}]}], "]"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n1", ",", "1", ",", "\"\<Frequency 1\>\""}], "}"}], ",", "1", 
+     ",", "4"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a1", ",", "1", ",", "\"\<Amplitude 1\>\""}], "}"}], ",", "0", 
+     ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p1", ",", "0", ",", "\"\<Phase 1\>\""}], "}"}], ",", "0", ",", 
+     
+     RowBox[{"2", " ", "Pi"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n2", ",", 
+       RowBox[{"5", "/", "4"}], ",", "\"\<Frequency 2\>\""}], "}"}], ",", "1",
+      ",", "4"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a2", ",", "1", ",", "\"\<Amplitude 2\>\""}], "}"}], ",", "0", 
+     ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p2", ",", "0", ",", "\"\<Phase 2\>\""}], "}"}], ",", "0", ",", 
+     
+     RowBox[{"2", " ", "Pi"}]}], "}"}], ",", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.577675048832716*^9, 3.57767504891953*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a1$$ = 1, $CellContext`a2$$ = 
+    1, $CellContext`n1$$ = 1, $CellContext`n2$$ = Rational[
+    5, 4], $CellContext`p1$$ = 0, $CellContext`p2$$ = 0, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`n1$$], 1, "Frequency 1"}, 1, 4}, {{
+       Hold[$CellContext`a1$$], 1, "Amplitude 1"}, 0, 1}, {{
+       Hold[$CellContext`p1$$], 0, "Phase 1"}, 0, 2 Pi}, {{
+       Hold[$CellContext`n2$$], 
+       Rational[5, 4], "Frequency 2"}, 1, 4}, {{
+       Hold[$CellContext`a2$$], 1, "Amplitude 2"}, 0, 1}, {{
+       Hold[$CellContext`p2$$], 0, "Phase 2"}, 0, 2 Pi}}, Typeset`size$$ = {
+    275., {132., 136.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`n1$927$$ = 
+    0, $CellContext`a1$928$$ = 0, $CellContext`p1$929$$ = 
+    0, $CellContext`n2$930$$ = 0, $CellContext`a2$931$$ = 
+    0, $CellContext`p2$932$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a1$$ = 1, $CellContext`a2$$ = 
+        1, $CellContext`n1$$ = 1, $CellContext`n2$$ = 
+        Rational[5, 4], $CellContext`p1$$ = 0, $CellContext`p2$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`n1$$, $CellContext`n1$927$$, 0], 
+        Hold[$CellContext`a1$$, $CellContext`a1$928$$, 0], 
+        Hold[$CellContext`p1$$, $CellContext`p1$929$$, 0], 
+        Hold[$CellContext`n2$$, $CellContext`n2$930$$, 0], 
+        Hold[$CellContext`a2$$, $CellContext`a2$931$$, 0], 
+        Hold[$CellContext`p2$$, $CellContext`p2$932$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ParametricPlot[{$CellContext`a1$$ 
+         Sin[$CellContext`n1$$ ($CellContext`x + $CellContext`p1$$)], \
+$CellContext`a2$$ 
+         Cos[$CellContext`n2$$ ($CellContext`x + $CellContext`p2$$)]}, \
+{$CellContext`x, 0, 20 Pi}, PlotRange -> 1, PerformanceGoal -> "Quality"], 
+      "Specifications" :> {{{$CellContext`n1$$, 1, "Frequency 1"}, 1, 
+         4}, {{$CellContext`a1$$, 1, "Amplitude 1"}, 0, 
+         1}, {{$CellContext`p1$$, 0, "Phase 1"}, 0, 2 
+         Pi}, {{$CellContext`n2$$, 
+          Rational[5, 4], "Frequency 2"}, 1, 
+         4}, {{$CellContext`a2$$, 1, "Amplitude 2"}, 0, 
+         1}, {{$CellContext`p2$$, 0, "Phase 2"}, 0, 2 Pi}}, 
+      "Options" :> {ControlPlacement -> Left}, "DefaultOptions" :> {}],
+     ImageSizeCache->{618., {203., 208.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.577675095898875*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"a", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], " ", 
+        RowBox[{"Sin", "[", 
+         RowBox[{
+          RowBox[{"n", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"x", "+", 
+            RowBox[{"p", "[", 
+             RowBox[{"[", "1", "]"}], "]"}]}], ")"}]}], "]"}]}], ",", 
+       RowBox[{
+        RowBox[{"a", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], " ", 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          RowBox[{"n", "[", 
+           RowBox[{"[", "2", "]"}], "]"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"x", "+", 
+            RowBox[{"p", "[", 
+             RowBox[{"[", "2", "]"}], "]"}]}], ")"}]}], "]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"20", " ", "Pi"}]}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", "1"}], ",", 
+     RowBox[{"PerformanceGoal", "\[Rule]", "\"\<Quality\>\""}]}], "]"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"5", "/", "4"}]}], "}"}], ",", "\"\<Frequency\>\""}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"4", ",", "4"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1"}], "}"}], ",", "\"\<Amplitude\>\""}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p", ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", "\"\<Phase\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"2", " ", "Pi"}], ",", 
+       RowBox[{"2", " ", "Pi"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5776751718105717`*^9, 3.5776751718564377`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = {1, 1}, $CellContext`n$$ = {1, 
+     Rational[5, 4]}, $CellContext`p$$ = {0, 0}, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`n$$], {1, 
+        Rational[5, 4]}, "Frequency"}, {1, 1}, {4, 4}}, {{
+       Hold[$CellContext`a$$], {1, 1}, "Amplitude"}, {0, 0}, {1, 1}}, {{
+       Hold[$CellContext`p$$], {0, 0}, "Phase"}, {0, 0}, {2 Pi, 2 Pi}}}, 
+    Typeset`size$$ = {360., {174., 179.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`n$1032$$ = {0, 0}, $CellContext`a$1033$$ = {0, 
+    0}, $CellContext`p$1034$$ = {0, 0}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = {1, 1}, $CellContext`n$$ = {1, 
+          Rational[5, 4]}, $CellContext`p$$ = {0, 0}}, "ControllerVariables" :> {
+        Hold[$CellContext`n$$, $CellContext`n$1032$$, {0, 0}], 
+        Hold[$CellContext`a$$, $CellContext`a$1033$$, {0, 0}], 
+        Hold[$CellContext`p$$, $CellContext`p$1034$$, {0, 0}]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ParametricPlot[{
+        Part[$CellContext`a$$, 1] 
+         Sin[Part[$CellContext`n$$, 1] ($CellContext`x + 
+            Part[$CellContext`p$$, 1])], Part[$CellContext`a$$, 2] 
+         Cos[Part[$CellContext`n$$, 2] ($CellContext`x + 
+            Part[$CellContext`p$$, 2])]}, {$CellContext`x, 0, 20 Pi}, 
+        PlotRange -> 1, PerformanceGoal -> "Quality"], 
+      "Specifications" :> {{{$CellContext`n$$, {1, 
+           Rational[5, 4]}, "Frequency"}, {1, 1}, {4, 
+         4}}, {{$CellContext`a$$, {1, 1}, "Amplitude"}, {0, 0}, {1, 
+         1}}, {{$CellContext`p$$, {0, 0}, "Phase"}, {0, 0}, {2 Pi, 2 Pi}}}, 
+      "Options" :> {ControlPlacement -> Left}, "DefaultOptions" :> {}],
+     ImageSizeCache->{564., {203., 208.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.577675184765493*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{
+     RowBox[{"Line", "[", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Sin", "[", 
+             RowBox[{"n", "+", "i"}], "]"}], ",", 
+            RowBox[{"Cos", "[", 
+             RowBox[{"n", "+", "i"}], "]"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Sin", "[", 
+             RowBox[{"n", "+", "dn", "+", "i"}], "]"}], ",", 
+            RowBox[{"Cos", "[", 
+             RowBox[{"n", "+", "dn", "+", "i"}], "]"}]}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "0", ",", "di", ",", 
+          RowBox[{"di", "/", "l"}]}], "}"}]}], "]"}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", "1.1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "0", ",", 
+     RowBox[{"2", " ", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"dn", ",", "0", ",", 
+     RowBox[{"2", " ", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"di", ",", "1", ",", 
+     RowBox[{"2", " ", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"l", ",", "1", ",", "200"}], "}"}], ",", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.577675269332762*^9, 3.577675269440359*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`di$$ = 1, $CellContext`dn$$ = 
+    0, $CellContext`l$$ = 1, $CellContext`n$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 0, 2 Pi}, {
+      Hold[$CellContext`dn$$], 0, 2 Pi}, {
+      Hold[$CellContext`di$$], 1, 2 Pi}, {
+      Hold[$CellContext`l$$], 1, 200}}, Typeset`size$$ = {324., {160., 164.}},
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`n$1080$$ = 0, $CellContext`dn$1081$$ = 
+    0, $CellContext`di$1082$$ = 0, $CellContext`l$1083$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`di$$ = 1, $CellContext`dn$$ = 
+        0, $CellContext`l$$ = 1, $CellContext`n$$ = 0}, "ControllerVariables" :> {
+        Hold[$CellContext`n$$, $CellContext`n$1080$$, 0], 
+        Hold[$CellContext`dn$$, $CellContext`dn$1081$$, 0], 
+        Hold[$CellContext`di$$, $CellContext`di$1082$$, 0], 
+        Hold[$CellContext`l$$, $CellContext`l$1083$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Graphics[
+        Line[
+         Table[{{
+            Sin[$CellContext`n$$ + $CellContext`i], 
+            Cos[$CellContext`n$$ + $CellContext`i]}, {
+            Sin[$CellContext`n$$ + $CellContext`dn$$ + $CellContext`i], 
+            
+            Cos[$CellContext`n$$ + $CellContext`dn$$ + $CellContext`i]}}, \
+{$CellContext`i, 0, $CellContext`di$$, $CellContext`di$$/$CellContext`l$$}]], 
+        PlotRange -> 1.1], 
+      "Specifications" :> {{$CellContext`n$$, 0, 2 Pi}, {$CellContext`dn$$, 0,
+          2 Pi}, {$CellContext`di$$, 1, 2 Pi}, {$CellContext`l$$, 1, 200}}, 
+      "Options" :> {ControlPlacement -> Left}, "DefaultOptions" :> {}],
+     ImageSizeCache->{608., {206., 211.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.577675295603161*^9}]
 }, Open  ]]
 },
 WindowSize->{740, 633},
@@ -95,6 +649,27 @@ Cell[695, 25, 264, 5, 50, "Input"],
 Cell[CellGroupData[{
 Cell[984, 34, 250, 6, 30, "Input"],
 Cell[1237, 42, 1473, 31, 118, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2747, 78, 336, 9, 30, "Input"],
+Cell[3086, 89, 1532, 32, 118, "Output"]
+}, Open  ]],
+Cell[4633, 124, 347, 9, 30, "Input"],
+Cell[CellGroupData[{
+Cell[5005, 137, 2571, 62, 205, InheritFromParent],
+Cell[7579, 201, 3834, 78, 521, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11450, 284, 1872, 57, 126, "Input"],
+Cell[13325, 343, 3178, 61, 428, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16540, 409, 2292, 71, 126, "Input"],
+Cell[18835, 482, 2623, 50, 428, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21495, 537, 1386, 38, 107, "Input"],
+Cell[22884, 577, 2547, 50, 434, "Output"]
 }, Open  ]]
 }
 ]
