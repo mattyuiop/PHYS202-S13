@@ -10,14 +10,17 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     93453,       1665]
-NotebookOptionsPosition[     92872,       1641]
-NotebookOutlinePosition[     93226,       1657]
-CellTagsIndexPosition[     93183,       1654]
+NotebookDataLength[     90647,       1615]
+NotebookOptionsPosition[     89990,       1590]
+NotebookOutlinePosition[     90327,       1605]
+CellTagsIndexPosition[     90284,       1602]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell["", "WolframAlphaLong",
+ CellChangeTimes->{3.578620065118273*^9}],
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{
@@ -31,19 +34,23 @@ Cell[BoxData[{
    RowBox[{"length", " ", "of", " ", "pendulum"}], "*)"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"\[Theta]0", "=", 
-   RowBox[{"20", "*", 
-    RowBox[{"\[Pi]", "/", "180"}]}]}], ";", " ", 
+  RowBox[{
+   RowBox[{"\[Theta]0", "=", 
+    RowBox[{"20", "*", 
+     RowBox[{"\[Pi]", "/", "180"}]}]}], ";"}], " ", 
   RowBox[{"(*", 
-   RowBox[{"20", " ", "degrees"}], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"\[Omega]0", " ", "=", " ", "0"}], ";", " ", 
+   RowBox[{"20", " ", "degrees"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Omega]0", " ", "=", " ", "0"}], ";"}], " ", 
   RowBox[{"(*", 
    RowBox[{"starting", " ", "from", " ", "rest"}], "*)"}], 
   "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
     RowBox[{"\[Phi]", "=", "y"}], ";", "\[IndentingNewLine]", 
-    RowBox[{"t", "=", "x"}], ";"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"t", "=", "x"}], ";"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"ode1", "=", 
    RowBox[{"{", 
     RowBox[{
@@ -109,7 +116,9 @@ Cell[BoxData[{
    3.494162892983869*^9}, {3.494162976794415*^9, 3.494163001498172*^9}, {
    3.494163071893292*^9, 3.4941630719595547`*^9}, {3.494163240196003*^9, 
    3.494163243631948*^9}, {3.494178674109873*^9, 3.494178699548072*^9}, {
-   3.577549065982582*^9, 3.577549072700952*^9}, 3.577549145166576*^9}],
+   3.577549065982582*^9, 3.577549072700952*^9}, 3.577549145166576*^9, {
+   3.578622385703085*^9, 3.5786224170191927`*^9}, {3.578624255695222*^9, 
+   3.5786242587468157`*^9}, {3.578624460561898*^9, 3.578624480790188*^9}}],
 
 Cell[BoxData[{
  RowBox[{
@@ -131,12 +140,13 @@ Cell[BoxData[{
      RowBox[{"PlotRange", "\[Rule]", " ", "All"}]}], "]"}]}], ";"}]}], "Input",\
 
  CellChangeTimes->{{3.4941620805077047`*^9, 3.494162130559312*^9}, {
-  3.494162438686253*^9, 3.4941624388214483`*^9}, {3.49416276111087*^9, 
-  3.4941627612842607`*^9}, {3.494163076540534*^9, 3.494163076603696*^9}, {
-  3.4941632000470552`*^9, 3.494163201262197*^9}, {3.494163247872136*^9, 
-  3.494163268710841*^9}, {3.494163305169607*^9, 3.494163305408745*^9}, {
-  3.4941671378365726`*^9, 3.494167137896326*^9}, {3.494178681693411*^9, 
-  3.494178704379784*^9}, {3.577549081756276*^9, 3.5775491266935997`*^9}}],
+   3.494162438686253*^9, 3.4941624388214483`*^9}, {3.49416276111087*^9, 
+   3.4941627612842607`*^9}, {3.494163076540534*^9, 3.494163076603696*^9}, {
+   3.4941632000470552`*^9, 3.494163201262197*^9}, {3.494163247872136*^9, 
+   3.494163268710841*^9}, {3.494163305169607*^9, 3.494163305408745*^9}, {
+   3.4941671378365726`*^9, 3.494167137896326*^9}, {3.494178681693411*^9, 
+   3.494178704379784*^9}, {3.577549081756276*^9, 3.5775491266935997`*^9}, {
+   3.578620076970852*^9, 3.578620078316527*^9}, 3.578624409510871*^9}],
 
 Cell[CellGroupData[{
 
@@ -1453,8 +1463,6 @@ ThwKtGqWrJml7FtGf8WUwqH8F23q33fB57LDNWfLMPgfJy3DZA==
   3.4941789048121853`*^9, 3.5775491591298018`*^9}]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
   RowBox[{
@@ -1566,73 +1574,14 @@ Cell[BoxData[
    3.5775499892251*^9}, {3.577550221132785*^9, 3.5775502214075537`*^9}, {
    3.577550744443714*^9, 3.5775508053235483`*^9}}],
 
+Cell[CellGroupData[{
+
+Cell["", "WolframAlphaLong",
+ CellChangeTimes->{3.578622254575201*^9}],
+
 Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`l$$ = 0.5, $CellContext`\[Theta]0$$ = 
-    Rational[1, 9] Pi, $CellContext`\[Omega]0$$ = 0, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`l$$], 0.5, "length (m)"}, 0, 2}, {{
-       Hold[$CellContext`\[Theta]0$$], Rational[1, 9] Pi, 
-       "initial angle (rad)"}, 0.1, Rational[1, 2] Pi}, {{
-       Hold[$CellContext`\[Omega]0$$], 0, "initial speed (rad/s)"}, 0, 10.}}, 
-    Typeset`size$$ = {500., {148., 152.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`l$4375$$ =
-     0, $CellContext`\[Theta]0$4376$$ = 0, $CellContext`\[Omega]0$4377$$ = 0}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, 
-      "Variables" :> {$CellContext`l$$ = 0.5, $CellContext`\[Theta]0$$ = 
-        Rational[1, 9] Pi, $CellContext`\[Omega]0$$ = 0}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`l$$, $CellContext`l$4375$$, 0], 
-        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$4376$$, 0], 
-        Hold[$CellContext`\[Omega]0$$, $CellContext`\[Omega]0$4377$$, 0]}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, 
-      "Body" :> ($CellContext`g = 9.8; $CellContext`l$$ = 
-        0.5; $CellContext`omega = ($CellContext`g/$CellContext`l$$)^
-         Rational[1, 2]; 
-       Module[{$CellContext`result$ = 
-          NDSolve[{
-            Derivative[
-              2][$CellContext`\[Theta]][$CellContext`t] == \
-(-($CellContext`g/$CellContext`l$$)) Sin[
-                $CellContext`\[Theta][$CellContext`t]], $CellContext`\[Theta][
-              0] == $CellContext`\[Theta]0$$, 
-             Derivative[1][$CellContext`\[Theta]][
-              0] == $CellContext`\[Omega]0$$}, $CellContext`\[Theta], \
-{$CellContext`t, 0, 20}]}, 
-         Plot[{(180/Pi) $CellContext`\[Theta]0$$ 
-           Cos[$CellContext`omega $CellContext`t], 
-           
-           ReplaceAll[(180/
-             Pi) $CellContext`\[Theta][$CellContext`t], \
-$CellContext`result$]}, {$CellContext`t, 0, 20}, 
-          PlotStyle -> {{Blue}, {Dashed, Red}}, PlotRange -> All, 
-          AxesLabel -> {"t (s)", "\[Theta] (rad)"}, 
-          PlotRange -> {{0, 20}, {-20, 20}}, ImageSize -> {500, 300}]]), 
-      "Specifications" :> {{{$CellContext`l$$, 0.5, "length (m)"}, 0, 2, 
-         Appearance -> 
-         "Labeled"}, {{$CellContext`\[Theta]0$$, Rational[1, 9] Pi, 
-          "initial angle (rad)"}, 0.1, Rational[1, 2] Pi, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Omega]0$$, 0, "initial speed (rad/s)"}, 
-         0, 10., Appearance -> "Labeled"}}, "Options" :> {}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{543., {219., 225.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
+ StyleBox["Interrupted",
+  FontColor->RGBColor[1., 0., 0.]]], "Output",
  CellChangeTimes->{{3.577503168951933*^9, 3.5775031800122957`*^9}, 
    3.5775496308879547`*^9, {3.577549817433275*^9, 3.577549831097909*^9}, 
    3.577549914925475*^9, {3.57754995775905*^9, 3.577549989572948*^9}, 
@@ -1640,9 +1589,8 @@ $CellContext`result$]}, {$CellContext`t, 0, 20},
 }, Open  ]]
 },
 WindowSize->{799, 739},
-WindowMargins->{{20, Automatic}, {Automatic, 0}},
-FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (August 26, \
-2012)",
+WindowMargins->{{Automatic, -126}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (October 10, 2011)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -1656,16 +1604,18 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[545, 20, 2453, 60, 148, "Input"],
-Cell[3001, 82, 1272, 29, 54, "Input"],
-Cell[4276, 113, 1142, 25, 43, "Input"],
+Cell[545, 20, 70, 1, 37, "WolframAlphaLong"],
+Cell[618, 23, 2507, 64, 183, "Input"],
+Cell[3128, 89, 1422, 31, 83, "Input"],
+Cell[4553, 122, 1220, 26, 50, "Input"],
 Cell[CellGroupData[{
-Cell[5443, 142, 364, 7, 43, "Input"],
-Cell[5810, 151, 79030, 1301, 231, "Output"]
+Cell[5798, 152, 364, 7, 50, "Input"],
+Cell[6165, 161, 79030, 1301, 228, "Output"]
 }, Open  ]],
+Cell[85210, 1465, 4320, 109, 279, "Input"],
 Cell[CellGroupData[{
-Cell[84877, 1457, 4320, 109, 196, "Input"],
-Cell[89200, 1568, 3656, 70, 461, "Output"]
+Cell[89555, 1578, 70, 1, 37, "WolframAlphaLong"],
+Cell[89628, 1581, 346, 6, 30, "Output"]
 }, Open  ]]
 }
 ]
