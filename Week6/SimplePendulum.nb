@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     90647,       1615]
-NotebookOptionsPosition[     89990,       1590]
-NotebookOutlinePosition[     90327,       1605]
-CellTagsIndexPosition[     90284,       1602]
+NotebookDataLength[     94198,       1690]
+NotebookOptionsPosition[     93464,       1662]
+NotebookOutlinePosition[     93801,       1677]
+CellTagsIndexPosition[     93758,       1674]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1463,6 +1463,8 @@ ThwKtGqWrJml7FtGf8WUwqH8F23q33fB57LDNWfLMPgfJy3DZA==
   3.4941789048121853`*^9, 3.5775491591298018`*^9}]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
   RowBox[{
@@ -1574,6 +1576,76 @@ Cell[BoxData[
    3.5775499892251*^9}, {3.577550221132785*^9, 3.5775502214075537`*^9}, {
    3.577550744443714*^9, 3.5775508053235483`*^9}}],
 
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`l$$ = 0.5, $CellContext`\[Theta]0$$ = 
+    Rational[1, 9] Pi, $CellContext`\[Omega]0$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`l$$], 0.5, "length (m)"}, 0, 2}, {{
+       Hold[$CellContext`\[Theta]0$$], Rational[1, 9] Pi, 
+       "initial angle (rad)"}, 0.1, Rational[1, 2] Pi}, {{
+       Hold[$CellContext`\[Omega]0$$], 0, "initial speed (rad/s)"}, 0, 10.}}, 
+    Typeset`size$$ = {500., {148., 152.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`l$1108$$ =
+     0, $CellContext`\[Theta]0$1109$$ = 0, $CellContext`\[Omega]0$1110$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`l$$ = 0.5, $CellContext`\[Theta]0$$ = 
+        Rational[1, 9] Pi, $CellContext`\[Omega]0$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`l$$, $CellContext`l$1108$$, 0], 
+        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$1109$$, 0], 
+        Hold[$CellContext`\[Omega]0$$, $CellContext`\[Omega]0$1110$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`g = 9.8; $CellContext`l$$ = 
+        0.5; $CellContext`omega = ($CellContext`g/$CellContext`l$$)^
+         Rational[1, 2]; 
+       Module[{$CellContext`result$ = 
+          NDSolve[{
+            Derivative[
+              2][$CellContext`\[Theta]][$CellContext`t] == \
+(-($CellContext`g/$CellContext`l$$)) Sin[
+                $CellContext`\[Theta][$CellContext`t]], $CellContext`\[Theta][
+              0] == $CellContext`\[Theta]0$$, 
+             Derivative[1][$CellContext`\[Theta]][
+              0] == $CellContext`\[Omega]0$$}, $CellContext`\[Theta], \
+{$CellContext`t, 0, 20}]}, 
+         Plot[{(180/Pi) $CellContext`\[Theta]0$$ 
+           Cos[$CellContext`omega $CellContext`t], 
+           
+           ReplaceAll[(180/
+             Pi) $CellContext`\[Theta][$CellContext`t], \
+$CellContext`result$]}, {$CellContext`t, 0, 20}, 
+          PlotStyle -> {{Blue}, {Dashed, Red}}, PlotRange -> All, 
+          AxesLabel -> {"t (s)", "\[Theta] (rad)"}, 
+          PlotRange -> {{0, 20}, {-20, 20}}, ImageSize -> {500, 300}]]), 
+      "Specifications" :> {{{$CellContext`l$$, 0.5, "length (m)"}, 0, 2, 
+         Appearance -> 
+         "Labeled"}, {{$CellContext`\[Theta]0$$, Rational[1, 9] Pi, 
+          "initial angle (rad)"}, 0.1, Rational[1, 2] Pi, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Omega]0$$, 0, "initial speed (rad/s)"}, 
+         0, 10., Appearance -> "Labeled"}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{545., {231., 236.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.580166073503624*^9}]
+}, Open  ]],
+
 Cell[CellGroupData[{
 
 Cell["", "WolframAlphaLong",
@@ -1612,10 +1684,13 @@ Cell[CellGroupData[{
 Cell[5798, 152, 364, 7, 50, "Input"],
 Cell[6165, 161, 79030, 1301, 228, "Output"]
 }, Open  ]],
-Cell[85210, 1465, 4320, 109, 279, "Input"],
 Cell[CellGroupData[{
-Cell[89555, 1578, 70, 1, 37, "WolframAlphaLong"],
-Cell[89628, 1581, 346, 6, 30, "Output"]
+Cell[85232, 1467, 4320, 109, 279, "Input"],
+Cell[89555, 1578, 3437, 67, 484, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[93029, 1650, 70, 1, 37, "WolframAlphaLong"],
+Cell[93102, 1653, 346, 6, 30, "Output"]
 }, Open  ]]
 }
 ]
